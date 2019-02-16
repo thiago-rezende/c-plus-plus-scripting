@@ -4,6 +4,7 @@ Makefile
 obj/
 
 # Folders
+.vscode
 .build
 bin
 obj

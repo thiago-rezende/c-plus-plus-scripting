@@ -20,7 +20,8 @@ project "cpp-proj"
     }
 
     includedirs {
-        "%{prj.name}/src"
+        "%{prj.name}/src",
+        "vendor/chaiscript/include"
     }
 
     filter "configurations:Debug"

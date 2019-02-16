@@ -1,8 +1,14 @@
-#include <iostream>
+#include <chaiscript/chaiscript.hpp>
 
-int main (int argc, char **argv)
-{
-    std::cout << "Hello World!" << std::endl;
-    std::cin.get();
-    return 0;
+std::string helloWorld(const std::string &t_name) {
+  return "Hello " + t_name + "!";
+}
+
+int main() {
+  chaiscript::ChaiScript chai;
+  chai.add(chaiscript::fun(&helloWorld), "helloWorld");
+
+  chai.eval(R"(
+    puts(helloWorld("Bob"));
+  )");
 }
