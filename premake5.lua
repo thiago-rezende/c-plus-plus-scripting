@@ -1,7 +1,7 @@
 workspace "c-plus-plus"
     architecture "x64"
     configurations { "Debug", "Release" }
-    startproject "uri-proj"
+    startproject "cpp-proj"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
