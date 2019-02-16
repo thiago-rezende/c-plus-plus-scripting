@@ -1,6 +1,6 @@
 # C-Plus-Plus Scripting Project
 
-![](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/Premake-5-green.svg) ![](https://img.shields.io/badge/C++-17-orange.svg) ![](https://img.shields.io/badge/LUA-5.3-blue.svg)
+![](https://img.shields.io/badge/build-WIP-red.svg) ![](https://img.shields.io/badge/Premake-5-green.svg) ![](https://img.shields.io/badge/C++-17-orange.svg) ![](https://img.shields.io/badge/LUA-5.3-blue.svg)
 
  - A simple c-plus-plus project using Chaiscript made on top of the [C-Plus-Plus Starter Project](https://github.com/thiago-rezende/c-plus-plus-starter-project).
  
@@ -31,6 +31,6 @@
  
  | Toolset  |    Windows    |     Linux     |     MacOS     |
  |:--------:|:-------------:|:-------------:|:-------------:|
- | GCC      |    Working    |    Working    |   Not Tested  |
- | LLVM     |  Not Tested   |    Working    |   Not Tested  |
- | MSVC     |    Working    |    -------    |   ----------  |
+ | GCC      |      WIP      |      WIP      |   Not Tested  |
+ | LLVM     |      WIP      |      WIP      |   Not Tested  |
+ | MSVC     |      WIP      |    -------    |   ----------  |
