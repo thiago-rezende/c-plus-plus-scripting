@@ -1,4 +1,4 @@
-#include <chaiscript/chaiscript.hpp>
+#include <pch.h>
 
 std::string helloWorld(const std::string &t_name) {
   return "Hello " + t_name + "!";
@@ -9,6 +9,6 @@ int main() {
   chai.add(chaiscript::fun(&helloWorld), "helloWorld");
 
   chai.eval(R"(
-    puts(helloWorld("Bob"));
+    puts(helloWorld("Thiago"));
   )");
 }
